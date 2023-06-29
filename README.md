@@ -75,7 +75,7 @@ Add `./config/tailwind.config.js`:
 ```js
 module.exports = {
   darkMode: 'class',
-	content: ['./hugo_stats.json'],
+  content: ['./hugo_stats.json'],
   corePlugins: {
     aspectRatio: false,
   },
