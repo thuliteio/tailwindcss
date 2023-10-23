@@ -1,6 +1,6 @@
 {
   "name": "@hyas/tailwindcss",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Hyas Tailwind CSS",
   "author": "Hyas",
   "license": "MIT",
@@ -18,10 +18,10 @@
     "shx": "^0.3.4"
   },
   "dependencies": {
-    "@tailwindcss/aspect-ratio": "^0.x",
-    "@tailwindcss/forms": "^0.x",
-    "@tailwindcss/typography": "^0.5.x",
-    "tailwindcss": "^3.x"
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.6",
+    "@tailwindcss/typography": "^0.5.10",
+    "tailwindcss": "^3.3.3"
   },
   "engines": {
     "node": ">=16.12.0"

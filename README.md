@@ -9,7 +9,7 @@ Official Tailwind CSS integration for Hyas.
 ## Installation
 
 ```bash
-npm i -D @hyas/tailwindcss
+npm i @hyas/tailwindcss
 ```
 
 ## Setup
@@ -17,25 +17,62 @@ npm i -D @hyas/tailwindcss
 Add mounts to `./config/_default/module.toml`:
 
 ```toml
+# mounts
+## archetypes
+[[mounts]]
+  source = "archetypes"
+  target = "archetypes"
+
+## assets
+[[mounts]]
+  source = "node_modules/@hyas/core/assets"
+  target = "assets"
+
 [[mounts]]
   source = "node_modules/@hyas/tailwindcss/assets"
   target = "assets"
+
+[[mounts]]
+  source = "hugo_stats.json"
+  target = "assets/watching/hugo_stats.json"
+
+[[mounts]]
+  source = "assets"
+  target = "assets"
+
+## content
+[[mounts]]
+  source = "content"
+  target = "content"
+
+## data
+[[mounts]]
+  source = "data"
+  target = "data"
+
+## i18n
+[[module]]
+  source = "i18n"
+  target = "i18n"
+
+## layouts
+[[mounts]]
+  source = "node_modules/@hyas/core/layouts"
+  target = "layouts"
 
 [[mounts]]
   source = "node_modules/@hyas/tailwindcss/layouts"
   target = "layouts"
 
 [[mounts]]
-  source = "assets"
-  target = "assets"
-
-[[mounts]]
   source = "layouts"
   target = "layouts"
 
-[[mounts]]
-  source = "hugo_stats.json"
-  target = "assets/watching/hugo_stats.json"
+## static
+[[module]]
+  source = "static"
+  target = "static"
+
 ```
 
 Set cache busters in `./config/_default/hugo.toml`:
