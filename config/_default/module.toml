@@ -1,9 +1,9 @@
 [[mounts]]
-  source = "node_modules/@hyas/tailwindcss/assets"
+  source = "node_modules/@thulite/tailwindcss/assets"
   target = "assets"
 
 [[mounts]]
-  source = "node_modules/@hyas/tailwindcss/layouts"
+  source = "node_modules/@thulite/tailwindcss/layouts"
   target = "layouts"
 
 [[mounts]]
