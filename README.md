@@ -1,12 +1,12 @@
-# Hyas Tailwind CSS
+# Thulite Tailwind CSS
 
-Official Tailwind CSS integration for Hyas.
+Official Tailwind CSS integration for Thulite.
 
 ## Getting Started
 
-See the Hyas documentation:
+See the Thulite documentation:
 
-- [Tailwind CSS](https://docs.gethyas.com/guides/integrations/tailwind/)
+- [Tailwind CSS](https://docs.thulite.io/guides/integrations/tailwind/)
 
 ## Credits
 

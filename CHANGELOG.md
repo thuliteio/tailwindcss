@@ -1,4 +1,4 @@
-# @hyas/tailwindcss
+# @thulite/tailwindcss
 
 ## 1.1.0
 
