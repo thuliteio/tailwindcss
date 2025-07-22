@@ -12,4 +12,4 @@ See the Thulite documentation:
 
 This npm package is based on:
 
-- [Hugo Basic Starter for TailwindCSS v3.x](https://github.com/bep/hugo-starter-tailwind-basic)
+- [testtailwindwiththemeinthemes](https://github.com/bep/testtailwindwiththemeinthemes)

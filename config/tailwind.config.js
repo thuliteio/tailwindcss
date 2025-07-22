@@ -1,10 +1,8 @@
-// Source: https://github.com/bep/hugo-starter-tailwind-basic/blob/master/tailwind.config.js
+/*
+This file is present to satisy a requirement of the Tailwind CSS IntelliSense
+extension for Visual Studio Code.
 
-module.exports = {
-    darkMode: 'class',
-    content: ['./hugo_stats.json'],
-    corePlugins: {
-        aspectRatio: false
-    },
-    plugins: [require('@tailwindcss/aspect-ratio'), require('@tailwindcss/forms'), require('@tailwindcss/typography')]
-};
+https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+
+The rest of this file is intentionally empty.
+*/
