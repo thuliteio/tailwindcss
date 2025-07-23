@@ -1,5 +1,11 @@
 # @thulite/tailwindcss
 
+## 1.3.1
+
+### Patch Changes
+
+- [#5](https://github.com/thuliteio/tailwindcss/pull/5) [`a251826`](https://github.com/thuliteio/tailwindcss/commit/a2518265c9b7103bdf4ed175e943b517f34c7b7d) Thanks [@h-enk](https://github.com/h-enk)! - Update for css.TailwindCSS
+
 ## 1.3.0
 
 ### Minor Changes
