@@ -5,9 +5,9 @@
   {{ if templates.Exists "partials/head/resource-hints.html" -}}
     {{ partial "head/resource-hints.html" . }}
   {{ end -}}
-  {{ with (templates.Defer (dict "key" "global")) }}
+  {{ with (templates.Defer (dict "key" "global")) -}}
     {{ partial "head/stylesheet.html" . }}
-  {{ end }}
+  {{ end -}}
   {{ if templates.Exists "partials/head/seo.html" -}}
     {{ partial "head/seo.html" . }}
   {{ else -}}
