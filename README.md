@@ -1,4 +1,4 @@
-# Thulite Tailwind CSS
+# Tailwind CSS
 
 Official Tailwind CSS integration for Thulite.
 
