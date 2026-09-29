@@ -1,5 +1,11 @@
 # @thulite/tailwindcss
 
+## 1.3.4
+
+### Patch Changes
+
+- [#8](https://github.com/thuliteio/tailwindcss/pull/8) [`ffc32e3`](https://github.com/thuliteio/tailwindcss/commit/ffc32e36ec6802e6f06cb8b7c303fa8aa1ea49f1) Thanks [@h-enk](https://github.com/h-enk)! - chore: update dependencies and devDependencies in package.json
+
 ## 1.3.3
 
 ### Patch Changes
