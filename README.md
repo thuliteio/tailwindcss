@@ -6,7 +6,7 @@ Official Tailwind CSS integration for Thulite.
 
 See the Thulite documentation:
 
-- [Tailwind CSS](https://docs.thulite.io/guides/integrations/tailwind/)
+- [Tailwind CSS](https://docs.thulite.io/thulite/basics/integrations/tailwindcss/)
 
 ## Credits
 
